@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.H1{
+  display: flex;
+  align-items: center;
+}
+
+.Components{
+  display: flex;
+  width: 120%;
+  margin: 0 auto;
+}
+
+.Components > div{
+  margin: 1%;
+  border: 5px dashed #9BF2EA;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
